@@ -25,3 +25,14 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+ext{
+    minSdkVersion = 16
+    targetSdkVersion = 24
+    compileSdkVersion = 24
+    buildToolsVersion= "24.0.2"
+
+    supportLibraryVersion = '24.2.1'
+    butterknifeVersion = '7.0.1'
+    dbflow_version = "4.0.0-beta1"
+}
